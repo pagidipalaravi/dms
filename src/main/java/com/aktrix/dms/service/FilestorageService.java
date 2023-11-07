@@ -12,9 +12,13 @@ import com.aktrix.dms.repo.FilestorageRepository;
 public class FilestorageService {
 	@Autowired
 	FilestorageRepository filestorageRepository;
-	public void getFile(Long did) {
+	public void downloadFile(Long did) {
 		Optional<Filestorage> filestorage= filestorageRepository.findById(did);
 		byte[] ayteArray = filestorage.get().getBfiledata();
 		//TODO convert byte[] to file
+	}
+	public void uploadFile(Long did) {
+		Filestorage filestorage = null;
+		filestorageRepository.save(filestorage);
 	}
 }
