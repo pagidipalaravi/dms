@@ -8,6 +8,6 @@ public class DmsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DmsApplication.class, args);
+		System.out.println("DMS Application is running");
 	}
-
 }
