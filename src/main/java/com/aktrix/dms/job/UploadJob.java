@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class UploadJob {
-	@Scheduled(cron="*/10 * * * * *")
+	//@Scheduled(cron="*/10 * * * * *")
 	public void getFilesJob() {
 		System.out.println("file will be upload for every ten seconds");
 	}
