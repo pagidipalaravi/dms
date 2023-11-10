@@ -2,6 +2,7 @@ package com.aktrix.dms.job;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+<<<<<<< Updated upstream
 @Component
 public class UploadJob {
 	@Scheduled(cron="*/10 * * * * *")
