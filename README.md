@@ -20,7 +20,7 @@ Outflow/Outbound:download
 			emails.
 --
 Search:
-	It is used for searching the documents and save over time to.	
+	It is used for searching the documents and searching saves our time to.	
 --
 Workflow approvals
 	If every detail is correct then the workflow gives approvals.
